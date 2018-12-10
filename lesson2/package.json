@@ -4,12 +4,14 @@
   "description": "学习使用外部模块",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
   },
   "author": "alsotang <alsotang@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.9.5",
-    "utility": "^1.2.0"
+    "express": "4.9.5",
+    "utility": "1.2.0",
+    "nodemon":"1.18.7"
   }
 }
